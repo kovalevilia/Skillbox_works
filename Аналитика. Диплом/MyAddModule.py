@@ -39,7 +39,7 @@ def fix_q1(answer: str) -> str:
     Returns
     -------
     : str
-        Строка с корректными ответом.
+        Строка с корректными ответом. 
     """
     if not pd.isna(answer):
         tmp = re.compile(r'\d+').findall(answer)
